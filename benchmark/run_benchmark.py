@@ -120,8 +120,8 @@ multi-buy bundles. See [LIMITATIONS.md](LIMITATIONS.md).
     (ROOT / "BENCHMARK.md").write_text(body, encoding="utf-8")
     readme = ROOT / "README.md"
     text = readme.read_text(encoding="utf-8")
-    text = re.sub(r"(<!-- benchmark:start -->\n).*?(\n<!-- benchmark:end -->)",
-                  lambda m: m.group(1) + t + m.group(2), text, flags=re.S)
+    text = re.sub(r"(<!-- benchmark:start -->).*?(<!-- benchmark:end -->)",
+                  lambda m: f"{m.group(1)}\n{t}\n{m.group(2)}", text, flags=re.S)
     readme.write_text(text, encoding="utf-8")
 
 
