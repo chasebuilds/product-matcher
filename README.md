@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/chasebuilds/product-matcher/actions/workflows/ci.yml/badge.svg)](https://github.com/chasebuilds/product-matcher/actions/workflows/ci.yml) ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue) [![MIT license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+**[Live demo: try it in your browser](https://chasebuilds.github.io/product-matcher/)**. Drop in your own file or run the bundled sample with one click. The real package runs in the page with Pyodide, so files never leave your browser.
+
+[![The live demo after running the sample: the tool's summary, result tabs and output table](docs/demo.png)](https://chasebuilds.github.io/product-matcher/)
+
 Matches product rows between two lists, for example a supplier price list and a store catalog. Rows with the same GTIN (UPC/EAN) or SKU are paired first. The rest are paired by name after both names are cleaned: sizes turned into one unit (`500ml`, `0.5 L` and `50cl` are the same), pack counts pulled out (`12 x`, `(12 pack)`, `12pk`), case and punctuation dropped and word order ignored. Names are scored with rapidfuzz. Sure pairs go to a Matched sheet, unsure ones to a Review sheet side by side, and the rest to an Unmatched sheet per list. Matched pairs show the price difference. Everything runs offline.
 
 ## Measured result

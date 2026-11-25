@@ -13,3 +13,4 @@ htmlcov/
 benchmark/data/
 pmatch-out/
 ~$*.xlsx
+_site/
