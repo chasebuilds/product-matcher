@@ -112,3 +112,11 @@ The sample files were made with `python -m benchmark.generate --seed 7 --product
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## More from Chase Builds
+
+- **[json-to-tables](https://github.com/chasebuilds/json-to-tables)**: Nested JSON to tidy related tables in Excel, CSV or SQLite. ([live demo](https://chasebuilds.github.io/json-to-tables/))
+- **[lead-list-qa](https://github.com/chasebuilds/lead-list-qa)**: Offline quality checks for B2B contact lists. ([live demo](https://chasebuilds.github.io/lead-list-qa/))
+- **[excel-to-sql](https://github.com/chasebuilds/excel-to-sql)**: Load CSV and Excel into SQL with type inference and a load report. ([live demo](https://chasebuilds.github.io/excel-to-sql/))
+
+[All projects, sorted by industry](https://github.com/chasebuilds) · [chasebuilds.github.io](https://chasebuilds.github.io)
