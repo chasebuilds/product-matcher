@@ -1,0 +1,7 @@
+{
+  "title": "Product Matcher: Match products between two catalogs | Chase Builds",
+  "description": "Match products between two lists by SKU, units and fuzzy names, with a score for every pair and a review sheet for uncertain matches. Runs in your browser.",
+  "url": "https://chasebuilds.github.io/product-matcher/",
+  "image": "docs/demo.png",
+  "repo": "product-matcher"
+}
